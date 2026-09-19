@@ -1,0 +1,16 @@
+.gradle/
+build/
+.kotlin/
+.idea/
+*.iml
+out/
+
+# FET's own sources, fetched by scripts/fetch-fet.sh. 354 MB, and not ours to redistribute.
+_upstream/
+
+# Working directories the server creates inside a workspace.
+.fet-mcp/
+runs/
+snapshots/
+
+.DS_Store
